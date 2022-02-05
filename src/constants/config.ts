@@ -4,7 +4,7 @@ export const CONFIG = {
   wordLength: 5, // This sets how long each word is based on how many characters (as defined in orthography.ts) are in each word
   author: 'Cedar Étoile, Q̓aq̓uƛ̓amas, Ma̱lidi', // with help from Ben Altair
   authorWebsite: 'https://tlaahaqsak.com', // Put a link to your website or social media here
-  wordListSource: 'many sources', // Describe the source material for your words here
+  wordListSource: 'many resources', // Describe the source material for your words here
   wordListSourceLink: '', // Put a link to the source material for your words here
   //
   // THESE NEXT SETTINGS ARE FOR ADVANCED USERS

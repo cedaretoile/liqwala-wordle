@@ -11,11 +11,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
         This is an open source clone of the game Wordle adapted to{' '}
-        {CONFIG.language} by{' '}
-        <a href={CONFIG.authorWebsite} className="underline font-bold">
-          {CONFIG.author}
-        </a>{' '}
-        - check out{' '}
+        {CONFIG.language} by {CONFIG.author} - check out{' '}
         <a
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
@@ -37,11 +33,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           Aidan Pine's fork
         </a>{' '}
         and customize it for another language! The words for this Wordle were
-        sourced from{' '}
-        <a href={CONFIG.wordListSourceLink} className="underline font-bold">
-          {CONFIG.wordListSource}
-        </a>
-        . Or,
+        sourced from {CONFIG.wordListSource}. Or,
         {' you can also '}
         <a
           href="https://www.powerlanguage.co.uk/wordle/"
