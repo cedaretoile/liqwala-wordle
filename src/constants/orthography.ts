@@ -49,6 +49,7 @@ export const ORTHOGRAPHY = [
   'x̌ʷ',
   'y',
   'y̓',
+  'ʔ',
 ]
 
 if (CONFIG.normalization) {
